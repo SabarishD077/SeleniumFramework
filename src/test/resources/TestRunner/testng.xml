@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression test Hubspot" verbose="1" parallel="tests"
+	thread-count="1">
+
+	<listeners>
+	<listener class-name="com.hubspot.listeners.TestAllureListener" />
+	 </listeners>
+
+	<test name="Hubspot Test" parallel="classes"
+		thread-count="1">
+		<classes>
+			<class name="com.hubspot.tests.LoginPageTest" />
+			<class name="com.hubspot.tests.HomePageTest" />
+			<class name="com.hubspot.tests.ContactPageTest" />
+			</classes>
+	</test>
+</suite>

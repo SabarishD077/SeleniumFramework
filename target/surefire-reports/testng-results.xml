@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression test Hubspot" duration-ms="273484" started-at="2020-06-11T09:32:50 IST" finished-at="2020-06-11T09:37:23 IST">
+    <groups>
+    </groups>
+    <test name="Hubspot Test" duration-ms="273484" started-at="2020-06-11T09:32:50 IST" finished-at="2020-06-11T09:37:23 IST">
+      <class name="com.hubspot.tests.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hubspot.tests.HomePageTest@1098f9b]" name="setUp" is-config="true" duration-ms="77756" started-at="2020-06-11T09:32:50 IST" finished-at="2020-06-11T09:34:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="goToContactTest()[pri:1, instance:com.hubspot.tests.HomePageTest@1098f9b]" name="goToContactTest" duration-ms="16148" started-at="2020-06-11T09:34:10 IST" finished-at="2020-06-11T09:34:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToContactTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspot.tests.HomePageTest@1098f9b]" name="tearDown" is-config="true" duration-ms="34185" started-at="2020-06-11T09:34:28 IST" finished-at="2020-06-11T09:35:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hubspot.tests.HomePageTest -->
+      <class name="com.hubspot.tests.ContactPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hubspot.tests.ContactPageTest@1bf4cbd]" name="setUp" is-config="true" duration-ms="42567" started-at="2020-06-11T09:35:06 IST" finished-at="2020-06-11T09:35:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testcreateContacts(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.hubspot.tests.ContactPageTest@1bf4cbd]" name="testcreateContacts" duration-ms="15112" started-at="2020-06-11T09:35:49 IST" data-provider="getContactsTestData" finished-at="2020-06-11T09:36:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandy@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Santosh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sandy]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Automation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcreateContacts -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspot.tests.ContactPageTest@1bf4cbd]" name="tearDown" is-config="true" duration-ms="27586" started-at="2020-06-11T09:36:04 IST" finished-at="2020-06-11T09:36:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hubspot.tests.ContactPageTest@1bf4cbd]" name="setUp" is-config="true" duration-ms="33498" started-at="2020-06-11T09:36:32 IST" finished-at="2020-06-11T09:37:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testcreateContacts(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.hubspot.tests.ContactPageTest@1bf4cbd]" name="testcreateContacts" duration-ms="11067" started-at="2020-06-11T09:37:05 IST" data-provider="getContactsTestData" finished-at="2020-06-11T09:37:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shami@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shami]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sharmi]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Automation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcreateContacts -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspot.tests.ContactPageTest@1bf4cbd]" name="tearDown" is-config="true" duration-ms="6774" started-at="2020-06-11T09:37:16 IST" finished-at="2020-06-11T09:37:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hubspot.tests.ContactPageTest -->
+    </test> <!-- Hubspot Test -->
+  </suite> <!-- Regression test Hubspot -->
+</testng-results>
