@@ -13,7 +13,6 @@
 		<classes>
 			<class name="com.hubspot.tests.LoginPageTest" />
 			<class name="com.hubspot.tests.HomePageTest" />
-			<class name="com.hubspot.tests.ContactPageTest" />
 			</classes>
 	</test>
 </suite>
